@@ -1,0 +1,7 @@
+.typingContainer a {
+  color: var(--accent-color3);
+  /* font-family: var(--Fira); */
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 0.16rem solid var(--accent-color3) ;
+}

@@ -1,0 +1,37 @@
+.customFormStyle input, .customFormStyle textarea, .customFormStyle select {
+  background-color: var(--background-color1);
+  border: 0;
+  color: var(--text-color2);
+  font-size: 1.1rem;
+  border-radius: 0.4rem;
+  padding: 1rem;
+  font-family: var(--Raleway);
+}
+
+.customFormStyle select {
+  min-width: 16rem;
+  width: max-content;
+}
+
+.customFormStyle input[type="submit"] {
+  background-color: var(--accent-color0);
+  color: var(--text-color0);
+  font-weight: 600;
+  width: max-content;
+  padding: 1rem 3rem;
+  align-self: flex-end;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+
+
+.customFormStyle input::placeholder {
+  left: 0rem;
+  transition: all 500ms cubic-bezier(0.67, 0.01, 0.34, 0.99);
+}
+.customFormStyle input:focus::placeholder {
+  color: rgba(0, 0, 0, 0);
+  left: -2rem;
+  position: relative;
+}

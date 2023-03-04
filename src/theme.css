@@ -1,0 +1,33 @@
+.dark-mode {
+  --background-color0: #19191e;
+  --background-color1: #24242b;
+  --background-color2: #38383E;
+
+  --accent-color0: #0945cb;
+  --accent-color1: #0487e4;
+  --accent-color2: #04b8f4;
+  --accent-color3: #ff4500;
+  --accent-color4: #ff6a33;
+  
+  --text-color0: #d4d2d2;
+  --text-color1: #e6e6e6;
+  --text-color2: #f2f1f6;
+
+  --navbar-color: rgba(36, 36, 43, 0.5);
+}
+
+.white-mode {
+  --background-color0: #fff;
+  --background-color1: #f2f1f6;
+  --background-color2: #e6e6e6;
+
+  --accent-color0: #0945cb;
+  --accent-color1: #0487e4;
+  --accent-color2: #04b8f4;
+  --accent-color3: #ff4500;
+  --accent-color4: #ff6a33;
+
+  --text-color0: #232c33;
+  --text-color1: #394147;
+  --text-color2: #4f565c;
+}

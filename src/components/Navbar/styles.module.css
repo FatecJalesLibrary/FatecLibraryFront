@@ -1,0 +1,71 @@
+.NavbarContainer {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  justify-content: space-between;
+  /* background-color: #fff; */
+  padding: 0.6rem;
+}
+
+.NavbarOnTop {
+  padding: 0.8rem;
+}
+
+/* nav links - start */
+.navItemsWrapper {
+  position: relative;
+  display: block;
+  padding: 10px 0;
+}
+
+.navItemsWrapper:active {
+  transform: translateY(0.1rem);
+  transition: transform 0.01s ease;
+}
+/* nav links - end */
+
+.loginButton {
+  padding: 0.6rem 1.5rem;
+  border-radius: 5rem;
+  font-size: 1rem;
+  color: var(--text-color0);
+  font-weight: bold;
+}
+
+.loginButton:hover {
+  color: var(--text-color2);
+}
+
+.loginButton:active {
+  transform: translateY(0.1rem);
+  transition: transform 0.01s ease;
+}
+
+.loginButton svg {
+  font-size: 1rem;
+  opacity: 0;
+}
+
+.loginButton:hover svg {
+  font-size: 1.6rem;
+  opacity: 1;
+  color: var(--text-color0);
+}
+
+.loginButton .cardFlipEffect {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  top: 0;
+  left: 0;
+  border-radius: 1.4rem;
+  opacity: 0.3;
+  z-index: 1;
+}
+
+.loginButton:hover .cardFlipEffect {
+  transform: rotateY(180deg);
+  background-color: var(--accent-color1);
+}

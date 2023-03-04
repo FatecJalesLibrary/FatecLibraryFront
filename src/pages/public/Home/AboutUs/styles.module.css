@@ -1,0 +1,16 @@
+/* .serviceCard .cardFlipEffect {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  top: 0;
+  left: 0;
+  border-radius: 0 0 1.4rem 1.4rem;
+  opacity: 0.4;
+  box-shadow: 0 0 0 0.1rem transparent;
+}
+
+.serviceCard:hover .cardFlipEffect {
+  transform: rotateX(180deg);
+  box-shadow: 0 0 0 0.1rem var(--accent-color3);
+} */
